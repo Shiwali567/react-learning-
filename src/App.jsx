@@ -1,12 +1,11 @@
-import FeedbackForm from "./components/FeedbackForm";
-
+import Counter from "./components/Counter";
 const App = () => {
-  return(
+  return (
     <div>
-      <p>Feedback form</p> 
-    <FeedbackForm />
+      <p>COUNTER APP </p>
+      <Counter />
     </div>
-  )
-}
+  );
+};
 
 export default App;
